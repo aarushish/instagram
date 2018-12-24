@@ -8,6 +8,8 @@ FROM users
 ORDER BY created_at
 LIMIT 5;
 
+
+
 -- 2. Most Popular Registration Date
 
 SELECT 
@@ -17,6 +19,8 @@ FROM users
 GROUP BY day
 ORDER BY total DESC
 LIMIT 2;
+
+
 
 -- 3. Identify Inactive Users (users with no photos)
 
